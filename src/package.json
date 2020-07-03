@@ -1,0 +1,29 @@
+{
+  "name": "instant-mirror",
+  "version": "1.0.0",
+  "description": "A script that mirrors the Instant OS packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filecoffee/instant-mirror.git"
+  },
+  "keywords": [
+    "nodejs",
+    "instantos"
+  ],
+  "author": "abcdan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filecoffee/instant-mirror/issues"
+  },
+  "homepage": "https://github.com/filecoffee/instant-mirror#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
