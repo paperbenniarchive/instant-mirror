@@ -4,7 +4,9 @@
   "description": "A script that mirrors the Instant OS packages",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5"
-  }
+    "request-promise": "^4.2.5",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
