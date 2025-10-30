@@ -22,7 +22,7 @@
   "homepage": "https://github.com/filecoffee/instant-mirror#readme",
   "dependencies": {
     "cheerio": "^1.1.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
   }
